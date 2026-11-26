@@ -1,0 +1,87 @@
+﻿{
+  "fecha": "2026-11-25T20:12:59-05:00",
+  "origen": "CSV SIAGIE verificados, con panel conciliado mediante SQLCMD",
+  "particiones": {
+    "entrenamiento": {
+      "anio_t": 2021,
+      "anio_t1": 2022,
+      "servicios_origen": 105931,
+      "servicios_destino": 105488,
+      "pares": 103931,
+      "sin_etiqueta": 2000,
+      "sin_antecedente_inmediato": 1557,
+      "cobertura_origen_pct": 98.11197855207635,
+      "cambio_nivel": 0,
+      "cambio_gestion": 0,
+      "pares_matricula_t_menor_10": 22386
+    },
+    "validacion": {
+      "anio_t": 2022,
+      "anio_t1": 2023,
+      "servicios_origen": 105488,
+      "servicios_destino": 105702,
+      "pares": 103722,
+      "sin_etiqueta": 1766,
+      "sin_antecedente_inmediato": 1980,
+      "cobertura_origen_pct": 98.32587592901562,
+      "cambio_nivel": 0,
+      "cambio_gestion": 0,
+      "pares_matricula_t_menor_10": 22144
+    },
+    "prueba": {
+      "anio_t": 2023,
+      "anio_t1": 2024,
+      "servicios_origen": 105702,
+      "servicios_destino": 105891,
+      "pares": 103856,
+      "sin_etiqueta": 1846,
+      "sin_antecedente_inmediato": 2035,
+      "cobertura_origen_pct": 98.25358082155493,
+      "cambio_nivel": 55,
+      "cambio_gestion": 17,
+      "pares_matricula_t_menor_10": 24283
+    }
+  },
+  "sha256_panel": "8fb5c53141388938efaaad2145c41043ddea6d759e7852abaee3ae8c031452f4",
+  "elegido": "persistencia",
+  "finalistas": {
+    "persistencia": "persistencia",
+    "ridge": "ridge_tasas_1",
+    "hgb": "hgb_base_15"
+  },
+  "metricas_prueba": [
+    {
+      "modelo": "persistencia",
+      "n": 103856,
+      "mae": 6.952395624711139,
+      "rmse": 13.950569690889127,
+      "r2": 0.9918494192005781,
+      "wape": 8.890008479420814
+    },
+    {
+      "modelo": "ridge",
+      "n": 103856,
+      "mae": 7.444304751402958,
+      "rmse": 14.172734524381356,
+      "r2": 0.9915877537815196,
+      "wape": 9.519011278377102
+    },
+    {
+      "modelo": "hgb",
+      "n": 103856,
+      "mae": 8.327482589970911,
+      "rmse": 26.182190063829836,
+      "r2": 0.9712910959701158,
+      "wape": 10.648328264568011
+    }
+  ],
+  "artefactos_sha256": {
+    "hgb.joblib": "72cadc6aac9cc23cc57df39da96460ee9861062041de078ea66749738bb79a4d",
+    "metricas_prueba.csv": "33dad248084a726c1b4e2de07844f2323ca22e4e06450329ce08b1e07fe84d70",
+    "metricas_segmentos.csv": "b5d98095e8c43370b02805f2de45f70a9312013f2d2178d247086af9fd44b540",
+    "metricas_validacion.csv": "9b74a3b75e52b22bc6d3fc94ca0f78037aa0715015478e42e517860c3b4736d7",
+    "predicciones.parquet": "5b5ea8a0c0688a976a9d9bb74b8904b646e117065a8b558a8e2037385588d213",
+    "ridge.joblib": "be5bd507a8b5441672b35e6c2c2bdba71b3387a4fe6c46b297f7d6b553288e66"
+  },
+  "segundos_ejecucion": 13.898
+}

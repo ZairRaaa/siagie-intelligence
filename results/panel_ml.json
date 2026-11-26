@@ -1,0 +1,126 @@
+﻿{
+  "fecha": "2026-11-25T19:54:22-05:00",
+  "version_preparacion": 1,
+  "fuente": "CSV SIAGIE verificados, con panel conciliado mediante SQLCMD",
+  "conciliacion": {
+    "filas": 423012,
+    "columnas": [
+      "anio",
+      "cod_mod",
+      "anexo",
+      "nivel",
+      "gestion",
+      "filas",
+      "matricula",
+      "aprobados",
+      "retirados",
+      "total_atraso"
+    ],
+    "sha256_exportacion_dw": "78f833380644b226505bffc1e2d83e3d29b57c1c69c4c8e99e3512546cb57e2d"
+  },
+  "sha256_panel_canonico": "8fb5c53141388938efaaad2145c41043ddea6d759e7852abaee3ae8c031452f4",
+  "versiones": {
+    "pandas": "2.3.3",
+    "pyarrow": "26.0.1"
+  },
+  "anual": [
+    {
+      "anio": 2021,
+      "servicios": 105931,
+      "filas_fuente": 566359,
+      "matricula": 8173597,
+      "sha256_fuente": "839c52a0465365a7c8ceb5d1b39908dbf5bd0f64a095361517635e2905b6d2de"
+    },
+    {
+      "anio": 2022,
+      "servicios": 105488,
+      "filas_fuente": 558785,
+      "matricula": 8274834,
+      "sha256_fuente": "8dbe6288e206a3b3b9d235353f27103372f28baff0263ab42748ea36fffce37a"
+    },
+    {
+      "anio": 2023,
+      "servicios": 105702,
+      "filas_fuente": 544834,
+      "matricula": 8252287,
+      "sha256_fuente": "7c0bf05a69b9460aa10b60e8596a15b29ff963eb22c15d64ba46d61f1abed0c9"
+    },
+    {
+      "anio": 2024,
+      "servicios": 105891,
+      "filas_fuente": 535137,
+      "matricula": 8153638,
+      "sha256_fuente": "f3a7783e9373ca29c8e15aa549dfae3cb47cbe92cf0fa0e7b47eebb9a94279b5"
+    }
+  ],
+  "particiones": {
+    "entrenamiento": {
+      "anio_t": 2021,
+      "anio_t1": 2022,
+      "servicios_origen": 105931,
+      "servicios_destino": 105488,
+      "pares": 103931,
+      "sin_etiqueta": 2000,
+      "sin_antecedente_inmediato": 1557,
+      "cobertura_origen_pct": 98.11197855207635,
+      "cambio_nivel": 0,
+      "cambio_gestion": 0,
+      "pares_matricula_t_menor_10": 22386
+    },
+    "validacion": {
+      "anio_t": 2022,
+      "anio_t1": 2023,
+      "servicios_origen": 105488,
+      "servicios_destino": 105702,
+      "pares": 103722,
+      "sin_etiqueta": 1766,
+      "sin_antecedente_inmediato": 1980,
+      "cobertura_origen_pct": 98.32587592901562,
+      "cambio_nivel": 0,
+      "cambio_gestion": 0,
+      "pares_matricula_t_menor_10": 22144
+    },
+    "prueba": {
+      "anio_t": 2023,
+      "anio_t1": 2024,
+      "servicios_origen": 105702,
+      "servicios_destino": 105891,
+      "pares": 103856,
+      "sin_etiqueta": 1846,
+      "sin_antecedente_inmediato": 2035,
+      "cobertura_origen_pct": 98.25358082155493,
+      "cambio_nivel": 55,
+      "cambio_gestion": 17,
+      "pares_matricula_t_menor_10": 24283
+    }
+  },
+  "artefactos": {
+    "entrenamiento": {
+      "archivo": "data/ml/v1_8fb5c53141388938/entrenamiento.parquet",
+      "sha256": "ecedf5d8b524ee98c3c5068e0ea41285c85980148ebf22cea41003d23bee18d1"
+    },
+    "panel": {
+      "archivo": "data/ml/v1_8fb5c53141388938/panel.parquet",
+      "sha256": "937fec70fb5792bdd2424200ad8e4d50d2f78d6f817733eb4743a6cf6599af0c"
+    },
+    "prueba": {
+      "archivo": "data/ml/v1_8fb5c53141388938/prueba.parquet",
+      "sha256": "de6b130149afd53fb9d8521b2cd699aeed80b86ae215ba5dcd288806fdb21d62"
+    },
+    "validacion": {
+      "archivo": "data/ml/v1_8fb5c53141388938/validacion.parquet",
+      "sha256": "8642f5037a799aff47e67f0a319bdb34cef38eb0a41b5faed8190fe2ecd0246a"
+    }
+  },
+  "predictores_base": [
+    "matricula_t",
+    "nivel_t",
+    "gestion_t"
+  ],
+  "predictores_tasas_candidatos": [
+    "tasa_aprobados_t",
+    "tasa_retirados_t",
+    "tasa_total_atraso_t"
+  ],
+  "objetivo": "matricula_t1"
+}

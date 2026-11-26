@@ -1,0 +1,4 @@
+﻿entrenamiento: 103931 pares verificados
+validacion: 103722 pares verificados
+Prueba reservada: huella verificada. scikit-learn 1.9.1.
+Entorno y configuraciones listos. Modelos ajustados: 0.

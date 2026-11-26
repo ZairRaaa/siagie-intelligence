@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+/data/
+/entrega/
+/contexto/*.csv
+/contexto/*.descarga
+/contexto/*.docx
+/contexto/*.pdf
+/contexto/*.xlsx
+/contexto/*.pbix
+/results/ml/
+*.pem
+*.key

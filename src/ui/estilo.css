@@ -1,0 +1,31 @@
+.stApp .block-container { max-width: 1480px; padding-top: 2.6rem; padding-bottom: 3rem; }
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] { padding-top: .9rem; }
+.siagie-marca { display: flex; align-items: center; gap: .8rem; margin: 0 0 1.4rem; }
+.siagie-sello {
+  display: grid; place-items: center; width: 2.6rem; height: 2.6rem;
+  border-radius: .65rem; background: #72DAC5; color: #142C42; font-size: 1.45rem; font-weight: 800;
+}
+.siagie-marca strong { display: block; font-size: 1.23rem; line-height: 1.25; color: #fff; }
+.siagie-marca small { display: block; color: #B9CEE2; font-size: .82rem; }
+[data-testid="stSidebar"] [role="radiogroup"] { display: grid; gap: .3rem; }
+[data-testid="stSidebar"] [role="radiogroup"] label {
+  padding: .4rem .55rem; border-radius: .5rem; margin: 0;
+}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {
+  background-color: #255064;
+}
+[data-testid="stSidebar"] [data-baseweb="tag"] { background-color: #285560; color: #EFF8F9; }
+[data-testid="stMetric"] { min-height: 6.1rem; background-color: #fff; }
+[data-testid="stMetricValue"] { font-size: clamp(1.4rem, 2.45vw, 2.1rem); font-weight: 730; }
+[data-testid="stMetricLabel"] p { color: #4B6178; font-weight: 620; }
+.st-key-panel_evolucion, .st-key-panel_niveles { background-color: #fff; }
+.block-container h1 { font-size: clamp(2rem, 4.4vw, 3rem); letter-spacing: -.045em; padding-bottom: .15rem; }
+.block-container h2, .block-container h3 { letter-spacing: -.025em; }
+.siagie-origen {
+  border-left: 3px solid #0D8C77; padding: .15rem 0 .15rem .72rem;
+  margin: .15rem 0 .65rem; color: #3B566F; font-size: .91rem; font-weight: 575;
+}
+@media (max-width: 700px) {
+  .stApp .block-container { padding-top: 2.2rem; }
+  [data-testid="stMetricValue"] { font-size: 1.55rem; }
+}

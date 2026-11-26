@@ -1,0 +1,3 @@
+﻿Página ML verificada con los artefactos reales.
+Tres comparadores sobre 103856 pares. Selección global: persistencia, MAE 6,95.
+Tiempo registrado: 13,90 s. Gráficos, filtro exacto, control de descarga y estabilidad del MAE global verificados.

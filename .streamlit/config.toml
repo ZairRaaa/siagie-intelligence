@@ -1,0 +1,22 @@
+﻿[server]
+address = "127.0.0.1"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#087B68"
+backgroundColor = "#F3F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#152B43"
+font = "sans-serif"
+
+[theme.sidebar]
+backgroundColor = "#142C42"
+secondaryBackgroundColor = "#203D57"
+textColor = "#EDF4FB"
+primaryColor = "#72DAC5"

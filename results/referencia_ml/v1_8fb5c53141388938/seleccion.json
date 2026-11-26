@@ -1,0 +1,263 @@
+﻿{
+  "protocolo": {
+    "version_protocolo": 1,
+    "sha256_panel": "8fb5c53141388938efaaad2145c41043ddea6d759e7852abaee3ae8c031452f4",
+    "particiones_sha256": {
+      "entrenamiento": "ecedf5d8b524ee98c3c5068e0ea41285c85980148ebf22cea41003d23bee18d1",
+      "validacion": "8642f5037a799aff47e67f0a319bdb34cef38eb0a41b5faed8190fe2ecd0246a",
+      "prueba": "de6b130149afd53fb9d8521b2cd699aeed80b86ae215ba5dcd288806fdb21d62"
+    },
+    "semilla": 42,
+    "hilos": 2,
+    "seleccion": "MAE mínimo en validación",
+    "recorte_predicciones": "máximo entre la estimación y cero",
+    "versiones": {
+      "python": "3.12.3",
+      "numpy": "2.5.5",
+      "pandas": "2.3.3",
+      "scikit_learn": "1.9.1",
+      "scipy": "1.18.1",
+      "joblib": "1.6.0"
+    },
+    "candidatos": [
+      {
+        "id": "persistencia",
+        "modelo": "persistencia",
+        "variables": [
+          "matricula_t"
+        ],
+        "parametros": {}
+      },
+      {
+        "id": "ridge_base_1",
+        "modelo": "ridge",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t"
+        ],
+        "parametros": {
+          "alpha": 1.0,
+          "solver": "lsqr"
+        }
+      },
+      {
+        "id": "ridge_base_10",
+        "modelo": "ridge",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t"
+        ],
+        "parametros": {
+          "alpha": 10.0,
+          "solver": "lsqr"
+        }
+      },
+      {
+        "id": "hgb_base_15",
+        "modelo": "hgb",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t"
+        ],
+        "parametros": {
+          "max_iter": 100,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 30,
+          "learning_rate": 0.1,
+          "early_stopping": false,
+          "random_state": 42
+        }
+      },
+      {
+        "id": "hgb_base_31",
+        "modelo": "hgb",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t"
+        ],
+        "parametros": {
+          "max_iter": 100,
+          "max_leaf_nodes": 31,
+          "min_samples_leaf": 30,
+          "learning_rate": 0.1,
+          "early_stopping": false,
+          "random_state": 42
+        }
+      },
+      {
+        "id": "ridge_tasas_1",
+        "modelo": "ridge",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t",
+          "tasa_aprobados_t",
+          "tasa_retirados_t",
+          "tasa_total_atraso_t"
+        ],
+        "parametros": {
+          "alpha": 1.0,
+          "solver": "lsqr"
+        }
+      },
+      {
+        "id": "ridge_tasas_10",
+        "modelo": "ridge",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t",
+          "tasa_aprobados_t",
+          "tasa_retirados_t",
+          "tasa_total_atraso_t"
+        ],
+        "parametros": {
+          "alpha": 10.0,
+          "solver": "lsqr"
+        }
+      },
+      {
+        "id": "hgb_tasas_15",
+        "modelo": "hgb",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t",
+          "tasa_aprobados_t",
+          "tasa_retirados_t",
+          "tasa_total_atraso_t"
+        ],
+        "parametros": {
+          "max_iter": 100,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 30,
+          "learning_rate": 0.1,
+          "early_stopping": false,
+          "random_state": 42
+        }
+      },
+      {
+        "id": "hgb_tasas_31",
+        "modelo": "hgb",
+        "variables": [
+          "matricula_t",
+          "nivel_t",
+          "gestion_t",
+          "tasa_aprobados_t",
+          "tasa_retirados_t",
+          "tasa_total_atraso_t"
+        ],
+        "parametros": {
+          "max_iter": 100,
+          "max_leaf_nodes": 31,
+          "min_samples_leaf": 30,
+          "learning_rate": 0.1,
+          "early_stopping": false,
+          "random_state": 42
+        }
+      }
+    ]
+  },
+  "validacion": [
+    {
+      "id": "persistencia",
+      "modelo": "persistencia",
+      "n": 103722,
+      "mae": 7.235668421357089,
+      "rmse": 14.96591578213418,
+      "r2": 0.990707693105986,
+      "wape": 9.132700252783595,
+      "segundos": 0.006
+    },
+    {
+      "id": "ridge_base_1",
+      "modelo": "ridge",
+      "n": 103722,
+      "mae": 8.654339563359567,
+      "rmse": 16.607184570708384,
+      "r2": 0.9885578147302612,
+      "wape": 10.923315513557636,
+      "segundos": 0.738
+    },
+    {
+      "id": "ridge_base_10",
+      "modelo": "ridge",
+      "n": 103722,
+      "mae": 8.655808298738147,
+      "rmse": 16.610622613530182,
+      "r2": 0.9885530766851406,
+      "wape": 10.9251693187878,
+      "segundos": 0.455
+    },
+    {
+      "id": "hgb_base_15",
+      "modelo": "hgb",
+      "n": 103722,
+      "mae": 9.455155905489937,
+      "rmse": 27.153131923205613,
+      "r2": 0.9694115965339297,
+      "wape": 11.93408814495961,
+      "segundos": 1.642
+    },
+    {
+      "id": "hgb_base_31",
+      "modelo": "hgb",
+      "n": 103722,
+      "mae": 9.463431197606841,
+      "rmse": 27.178025491702744,
+      "r2": 0.9693554848806679,
+      "wape": 11.94453303519046,
+      "segundos": 3.142
+    },
+    {
+      "id": "ridge_tasas_1",
+      "modelo": "ridge",
+      "n": 103722,
+      "mae": 8.651977550651496,
+      "rmse": 16.606388267076888,
+      "r2": 0.9885589119945445,
+      "wape": 10.920334233487862,
+      "segundos": 0.55
+    },
+    {
+      "id": "ridge_tasas_10",
+      "modelo": "ridge",
+      "n": 103722,
+      "mae": 8.65344189198692,
+      "rmse": 16.609858201348175,
+      "r2": 0.9885541302237697,
+      "wape": 10.92218249265418,
+      "segundos": 0.599
+    },
+    {
+      "id": "hgb_tasas_15",
+      "modelo": "hgb",
+      "n": 103722,
+      "mae": 9.511382954008917,
+      "rmse": 27.21803961537555,
+      "r2": 0.9692651828023671,
+      "wape": 12.005056678938706,
+      "segundos": 1.534
+    },
+    {
+      "id": "hgb_tasas_31",
+      "modelo": "hgb",
+      "n": 103722,
+      "mae": 9.558290285255753,
+      "rmse": 27.692490422070684,
+      "r2": 0.968184336911127,
+      "wape": 12.06426207241292,
+      "segundos": 1.525
+    }
+  ],
+  "finalistas": {
+    "persistencia": "persistencia",
+    "ridge": "ridge_tasas_1",
+    "hgb": "hgb_base_15"
+  },
+  "elegido": "persistencia"
+}

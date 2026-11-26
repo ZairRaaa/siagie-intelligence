@@ -1,0 +1,233 @@
+﻿{
+  "fecha": "2026-11-25T15:11:46-05:00",
+  "metodo": "Consultas del módulo analítico compiladas y ejecutadas con SQLCMD, comparadas con CSV.",
+  "version_origen": [
+    {
+      "anio": 2021,
+      "disp_promocion": 1,
+      "disp_desaprobacion": 0,
+      "huella": "839c52a0465365a7c8ceb5d1b39908dbf5bd0f64a095361517635e2905b6d2de",
+      "actualizado": null
+    },
+    {
+      "anio": 2022,
+      "disp_promocion": 1,
+      "disp_desaprobacion": 0,
+      "huella": "8dbe6288e206a3b3b9d235353f27103372f28baff0263ab42748ea36fffce37a",
+      "actualizado": null
+    },
+    {
+      "anio": 2023,
+      "disp_promocion": 0,
+      "disp_desaprobacion": 1,
+      "huella": "7c0bf05a69b9460aa10b60e8596a15b29ff963eb22c15d64ba46d61f1abed0c9",
+      "actualizado": null
+    },
+    {
+      "anio": 2024,
+      "disp_promocion": 0,
+      "disp_desaprobacion": 1,
+      "huella": "f3a7783e9373ca29c8e15aa549dfae3cb47cbe92cf0fa0e7b47eebb9a94279b5",
+      "actualizado": null
+    }
+  ],
+  "casos": {
+    "anual": {
+      "grupos": 4,
+      "segundos_csv": 4.081,
+      "conciliado": true
+    },
+    "total": {
+      "grupos": 1,
+      "segundos_csv": 2.87,
+      "conciliado": true
+    },
+    "nivel_gestion": {
+      "grupos": 72,
+      "segundos_csv": 3.515,
+      "conciliado": true
+    },
+    "primaria_publica": {
+      "grupos": 2,
+      "segundos_csv": 0.512,
+      "conciliado": true
+    },
+    "servicio": {
+      "grupos": 4,
+      "segundos_csv": 0.002,
+      "conciliado": true
+    },
+    "edad_y_tipo": {
+      "grupos": 7,
+      "segundos_csv": 0.902,
+      "conciliado": true
+    },
+    "vacio": {
+      "grupos": 0,
+      "segundos_csv": 0.001,
+      "conciliado": true
+    },
+    "vista_anual": {
+      "grupos": 4,
+      "conciliado": true
+    },
+    "vista_nivel_gestion": {
+      "grupos": 72,
+      "conciliado": true
+    }
+  },
+  "indicadores_anuales": [
+    {
+      "anio": 2021,
+      "filas": 566359,
+      "servicios": 105931,
+      "matricula": 8173597,
+      "cantidad_discapacidad": 83331,
+      "mujeres": 4017641,
+      "hombres": 4155956,
+      "venezolanos": 122348,
+      "peruanos": 7998185,
+      "otros_extranjeros": 53064,
+      "dni_validado": 7953301,
+      "dni_sin_validar": 5136,
+      "sin_dni": 215160,
+      "aprobados": 7709796,
+      "retirados": 13181,
+      "fallecidos": 1482,
+      "requieren_recuperacion": 35949,
+      "cantidad_situacion_matriculado": 30747,
+      "postergan_evaluacion": 6161,
+      "total_atraso": 293218,
+      "promocion_guiada": 376281,
+      "desaprobados": null,
+      "tasa_aprobados": 94.32561943046618,
+      "tasa_retirados": 0.1612631501161606,
+      "tasa_total_atraso": 3.587380195035307,
+      "tasa_promocion_guiada": 4.603615764271226,
+      "tasa_desaprobados": null,
+      "matricula_anterior": null,
+      "variacion_pct": null
+    },
+    {
+      "anio": 2022,
+      "filas": 558785,
+      "servicios": 105488,
+      "matricula": 8274834,
+      "cantidad_discapacidad": 80482,
+      "mujeres": 4066008,
+      "hombres": 4208826,
+      "venezolanos": 137608,
+      "peruanos": 8082296,
+      "otros_extranjeros": 54930,
+      "dni_validado": 8040150,
+      "dni_sin_validar": 5342,
+      "sin_dni": 229342,
+      "aprobados": 7976504,
+      "retirados": 31009,
+      "fallecidos": 1659,
+      "requieren_recuperacion": 9884,
+      "cantidad_situacion_matriculado": 22121,
+      "postergan_evaluacion": 1004,
+      "total_atraso": 253166,
+      "promocion_guiada": 232653,
+      "desaprobados": null,
+      "tasa_aprobados": 96.39473130216268,
+      "tasa_retirados": 0.37473863524029605,
+      "tasa_total_atraso": 3.059469229231668,
+      "tasa_promocion_guiada": 2.8115730176581186,
+      "tasa_desaprobados": null,
+      "matricula_anterior": 8173597,
+      "variacion_pct": 1.2385856557400616
+    },
+    {
+      "anio": 2023,
+      "filas": 544834,
+      "servicios": 105702,
+      "matricula": 8252287,
+      "cantidad_discapacidad": 75046,
+      "mujeres": 4053826,
+      "hombres": 4198461,
+      "venezolanos": 137799,
+      "peruanos": 8058816,
+      "otros_extranjeros": 55672,
+      "dni_validado": 8022917,
+      "dni_sin_validar": 5407,
+      "sin_dni": 223963,
+      "aprobados": 7920577,
+      "retirados": 69421,
+      "fallecidos": 1953,
+      "requieren_recuperacion": 5256,
+      "cantidad_situacion_matriculado": 3661,
+      "postergan_evaluacion": 929,
+      "total_atraso": 205330,
+      "promocion_guiada": null,
+      "desaprobados": 250490,
+      "tasa_aprobados": 95.98038701271538,
+      "tasa_retirados": 0.8412334665529689,
+      "tasa_total_atraso": 2.4881587370870646,
+      "tasa_promocion_guiada": null,
+      "tasa_desaprobados": 3.035400974299609,
+      "matricula_anterior": 8274834,
+      "variacion_pct": -0.2724767650928103
+    },
+    {
+      "anio": 2024,
+      "filas": 535137,
+      "servicios": 105891,
+      "matricula": 8153638,
+      "cantidad_discapacidad": 72351,
+      "mujeres": 4006840,
+      "hombres": 4146798,
+      "venezolanos": 119644,
+      "peruanos": 7979233,
+      "otros_extranjeros": 54761,
+      "dni_validado": 7953351,
+      "dni_sin_validar": 4003,
+      "sin_dni": 196284,
+      "aprobados": 7812654,
+      "retirados": 51471,
+      "fallecidos": 1439,
+      "requieren_recuperacion": 29526,
+      "cantidad_situacion_matriculado": 16576,
+      "postergan_evaluacion": 686,
+      "total_atraso": 196493,
+      "promocion_guiada": null,
+      "desaprobados": 241286,
+      "tasa_aprobados": 95.81801399571577,
+      "tasa_retirados": 0.6312642283113379,
+      "tasa_total_atraso": 2.4098813314988967,
+      "tasa_promocion_guiada": null,
+      "tasa_desaprobados": 2.9592434689889346,
+      "matricula_anterior": 8252287,
+      "variacion_pct": -1.1954140712750296
+    }
+  ],
+  "indicadores_periodo_completo": {
+    "filas": 2205115,
+    "servicios": 111049,
+    "matricula": 32854356,
+    "cantidad_discapacidad": 311210,
+    "mujeres": 16144315,
+    "hombres": 16710041,
+    "venezolanos": 517399,
+    "peruanos": 32118530,
+    "otros_extranjeros": 218427,
+    "dni_validado": 31969719,
+    "dni_sin_validar": 19888,
+    "sin_dni": 864749,
+    "aprobados": 31419531,
+    "retirados": 165082,
+    "fallecidos": 6533,
+    "requieren_recuperacion": 80615,
+    "cantidad_situacion_matriculado": 73105,
+    "postergan_evaluacion": 8780,
+    "total_atraso": 948207,
+    "promocion_guiada": null,
+    "desaprobados": null,
+    "tasa_aprobados": 95.63277088736726,
+    "tasa_retirados": 0.5024660961243617,
+    "tasa_total_atraso": 2.886092182114299,
+    "tasa_promocion_guiada": null,
+    "tasa_desaprobados": null
+  }
+}

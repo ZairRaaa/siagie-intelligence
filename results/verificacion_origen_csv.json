@@ -1,0 +1,25 @@
+﻿{
+  "origen": "csv",
+  "anual": [
+    {
+      "anio": 2021,
+      "filas": 566359,
+      "matricula": 8173597
+    },
+    {
+      "anio": 2022,
+      "filas": 558785,
+      "matricula": 8274834
+    },
+    {
+      "anio": 2023,
+      "filas": 544834,
+      "matricula": 8252287
+    },
+    {
+      "anio": 2024,
+      "filas": 535137,
+      "matricula": 8153638
+    }
+  ]
+}

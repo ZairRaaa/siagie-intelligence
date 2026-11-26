@@ -1,0 +1,38 @@
+﻿{
+  "fecha": "2026-11-25T20:21:28-05:00",
+  "ejecucion": "results/ml/v1_8fb5c53141388938",
+  "sha256_panel": "8fb5c53141388938efaaad2145c41043ddea6d759e7852abaee3ae8c031452f4",
+  "huellas_verificadas": 6,
+  "predicciones_verificadas": 311568,
+  "pares_por_modelo": 103856,
+  "grupos_modelo_segmento_verificados": 30,
+  "configuraciones_validadas": 9,
+  "modelo_seleccionado": "persistencia",
+  "segundos_entrenamiento_y_evaluacion": 13.898,
+  "metricas_verificadas": [
+    {
+      "modelo": "hgb",
+      "n": 103856,
+      "mae": 8.327482589970911,
+      "rmse": 26.18219006382984,
+      "r2": 0.9712910959701158,
+      "wape": 10.648328264568011
+    },
+    {
+      "modelo": "persistencia",
+      "n": 103856,
+      "mae": 6.952395624711139,
+      "rmse": 13.950569690889127,
+      "r2": 0.9918494192005781,
+      "wape": 8.890008479420814
+    },
+    {
+      "modelo": "ridge",
+      "n": 103856,
+      "mae": 7.444304751402958,
+      "rmse": 14.17273452438137,
+      "r2": 0.9915877537815196,
+      "wape": 9.519011278377102
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+﻿SIAGIE INTELLIGENCE · FIGURAS HORIZONTALES PARA EL INFORME
+Capturas reales del dashboard local, tomadas el 25 de noviembre de 2026. Tamaño de cada JPEG: 1439 × 810 píxeles, aproximadamente 16:9. Los dos PNG son un diagrama técnico y un gráfico de resultados.
+
+FIGURA 1 — Arquitectura de SIAGIE Intelligence
+Archivo: evidence/arquitectura_siagie.png
+Ubicación sugerida: diseño e implementación.
+Nota sugerida. Elaboración propia a partir de la arquitectura implementada. La interfaz se probó con CSV verificados y la conciliación utilizó lecturas del DW mediante SQLCMD.
+
+FIGURA 2 — Resumen ejecutivo de matrícula y trayectoria
+Archivo: evidence/capturas/01_resumen_ejecutivo.jpg
+Ubicación sugerida: resultados descriptivos.
+Nota sugerida. Origen CSV verificado, Perú 2021–2024, todos los niveles y gestiones. Las tarjetas presentan matrículas por periodo, servicios distintos y tasas sobre la matrícula registrada.
+
+FIGURA 3 — Disponibilidad de la desaprobación por periodo
+Archivo: evidence/capturas/02_trayectoria_y_disponibilidad.jpg
+Ubicación sugerida: reglas de indicadores o resultados descriptivos.
+Nota sugerida. Los filtros incluyen 2021–2024. El gráfico muestra 2023–2024, periodos con datos de desaprobación.
+
+FIGURA 4 — Matrícula registrada por rango de edad
+Archivo: evidence/capturas/03_matricula_por_edad.jpg
+Ubicación sugerida: resultados descriptivos o anexo de características.
+Nota sugerida. Distribución marginal de la matrícula registrada por edad en los CSV 2021–2024.
+
+FIGURA 5 — Origen, grano y disponibilidad de las fuentes
+Archivo: evidence/capturas/04_datos_y_metodologia.jpg
+Ubicación sugerida: datos y metodología.
+Nota sugerida. Vista de procedencia y verificación SHA-256 de los cuatro periodos. El origen activo mostrado es CSV.
+
+FIGURA 6 — Distribución de tasas de retiro por servicio
+Archivo: evidence/capturas/07_servicios_distribucion_retiro.jpg
+Ubicación sugerida: resultados de análisis por servicio.
+Nota sugerida. Corte anual 2024. La visualización identifica servicios con denominadores menores de diez matrículas.
+
+FIGURA 7 — Historial de matrícula del servicio Los Luceros
+Archivo: evidence/capturas/08_servicio_historial.jpg
+Ubicación sugerida: caso de uso, demostración de filtros o anexo.
+Nota sugerida. Fuente CSV verificada, código modular 0001506, anexo 000, 2021–2024. Ejemplo de búsqueda y consulta longitudinal.
+
+FIGURA 8 — Evaluación histórica de la matrícula por servicio
+Archivo: evidence/capturas/05_ml_evaluacion_global.jpg
+Ubicación sugerida: resultados predictivos.
+Nota sugerida. Prueba histórica 2023→2024, 103 856 pares por comparador. Las tarjetas corresponden a persistencia, el comparador elegido por MAE de validación.
+
+FIGURA 9 — Matrícula observada, matrícula estimada y distribución de errores
+Archivo: evidence/capturas/06_ml_predicciones_y_residuos.jpg
+Ubicación sugerida: resultados predictivos o análisis de errores.
+Nota sugerida. Persistencia en la prueba histórica 2024. Los gráficos muestran una muestra reproducible de 4 000 pares dentro de los 103 856 evaluados. El error es matrícula estimada menos observada.
+
+FIGURA 10 — Comparación del error absoluto medio en 2024
+Archivo: evidence/comparacion_mae_2024.png
+Ubicación sugerida: discusión o comparación principal de los modelos.
+Nota sugerida. Elaboración propia a partir de las 103 856 predicciones de cada comparador. El eje expresa el MAE en matrículas por servicio.
+
+FIGURA 11 — Interfaz del asistente GPT en la evaluación predictiva
+Archivo: evidence/capturas/09_asistente_gpt.jpg
+Ubicación sugerida: extensión opcional y limitaciones.
+Nota sugerida. Vista real del control para interpretar métricas. El sondeo a la API devolvió credit_balance_exhausted por falta de saldo prepago, según results/verificacion_gpt.json.
+
+Para una versión breve del informe, prioriza las figuras 1, 2, 3, 8, 9 y 10. La figura 11 corresponde a la extensión GPT. Ajusta la numeración al orden final de aparición en el documento.

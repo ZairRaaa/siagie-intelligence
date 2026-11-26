@@ -1,0 +1,868 @@
+﻿[
+  {
+    "archivo": "Matriculación y Trayectoria Estudiantil 2021.csv",
+    "filas": 566359,
+    "columnas": [
+      "cod_mod",
+      "anexo",
+      "Nombre",
+      "gestion",
+      "id_nivel",
+      "dsc_nivel",
+      "Edad",
+      "TipoDiscaIntegrada",
+      "TotalEstudiantes",
+      "Discapacidad",
+      "Mujer",
+      "Hombre",
+      "Venezolanos",
+      "Peruanos",
+      "Extranjeros",
+      "DNI_validado",
+      "DNI_SinValidar",
+      "No_DNI",
+      "Aprobado",
+      "PromocionGuiada",
+      "Retirado",
+      "Fallecido",
+      "RequiereRecuperacion",
+      "Matriculado",
+      "PostergaEvaluacion",
+      "tot_atraso"
+    ],
+    "nulos": {
+      "Edad": 5,
+      "TipoDiscaIntegrada": 495330
+    },
+    "duplicados_completos": 0,
+    "duplicados_clave": 0,
+    "sumas": {
+      "TotalEstudiantes": 8173597,
+      "Discapacidad": 83331,
+      "Mujer": 4017641,
+      "Hombre": 4155956,
+      "Venezolanos": 122348,
+      "Peruanos": 7998185,
+      "Extranjeros": 53064,
+      "DNI_validado": 7953301,
+      "DNI_SinValidar": 5136,
+      "No_DNI": 215160,
+      "Aprobado": 7709796,
+      "PromocionGuiada": 376281,
+      "Retirado": 13181,
+      "Fallecido": 1482,
+      "RequiereRecuperacion": 35949,
+      "Matriculado": 30747,
+      "PostergaEvaluacion": 6161,
+      "tot_atraso": 293218
+    },
+    "no_numericos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "negativos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "medidas_mayores_total": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "reconciliacion": {
+      "sexo": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "nacionalidad": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "documento": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "situacion_final": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      }
+    },
+    "niveles": [
+      {
+        "id_nivel": "A5",
+        "dsc_nivel": "Inicial no escolarizado"
+      },
+      {
+        "id_nivel": "F0",
+        "dsc_nivel": "Secundaria"
+      },
+      {
+        "id_nivel": "B0",
+        "dsc_nivel": "Primaria"
+      },
+      {
+        "id_nivel": "A3",
+        "dsc_nivel": "Inicial - Cuna-Jardín"
+      },
+      {
+        "id_nivel": "A2",
+        "dsc_nivel": "Inicial - Jardín"
+      },
+      {
+        "id_nivel": "A1",
+        "dsc_nivel": "Inicial - Cuna"
+      }
+    ],
+    "gestion": {
+      "Pública de gestión directa": 437979,
+      "Privada": 119844,
+      "Pública de gestión privada": 8536
+    },
+    "discapacidad_tipos": {
+      "": 495330,
+      "Intelectual": 24050,
+      "Otra discapacidad/condicion": 12442,
+      "TEA": 7600,
+      "Fisica": 6356,
+      "Intelectual_leve": 4824,
+      "Intelectual_Moderado": 4068,
+      "Visual": 3776,
+      "Auditiva": 2607,
+      "Multidiscapacidad": 2308,
+      "Intelectual_Severo": 1316,
+      "Visual_baja_vision": 525,
+      "Auditiva_hipoacusia": 489,
+      "Auditiva_sordera": 266,
+      "Visual_ceguera": 205,
+      "Sin especificacion": 113,
+      "Sordoceguera": 84
+    },
+    "edad": {
+      "min": 0.0,
+      "max": 18.0,
+      "vacios": 5,
+      "mayores_100": 0,
+      "no_enteros": 0
+    },
+    "discapacidad_vacia_con_conteo": 0,
+    "discapacidad_tipo_conteo_distinto_total": 0,
+    "servicios": 105931,
+    "conflictos_por_servicio": {
+      "Nombre": 0,
+      "gestion": 0,
+      "id_nivel": 0
+    },
+    "longitud_codigos": {
+      "cod_mod": {
+        "6": 292456,
+        "7": 273568,
+        "5": 211,
+        "4": 124
+      },
+      "anexo": {
+        "1": 566359
+      }
+    },
+    "edad_extrema_ejemplos": []
+  },
+  {
+    "archivo": "Matriculación y Trayectoria Estudiantil 2022.csv",
+    "filas": 558785,
+    "columnas": [
+      "cod_mod",
+      "anexo",
+      "Nombre",
+      "gestion",
+      "id_nivel",
+      "dsc_nivel",
+      "Edad",
+      "TipoDiscaIntegrada",
+      "TotalEstudiantes",
+      "Discapacidad",
+      "Mujer",
+      "Hombre",
+      "Venezolanos",
+      "Peruanos",
+      "Extranjeros",
+      "DNI_validado",
+      "DNI_SinValidar",
+      "No_DNI",
+      "Aprobado",
+      "PromocionGuiada",
+      "Retirado",
+      "Fallecido",
+      "RequiereRecuperacion",
+      "Matriculado",
+      "PostergaEvaluacion",
+      "tot_atraso"
+    ],
+    "nulos": {
+      "TipoDiscaIntegrada": 490216
+    },
+    "duplicados_completos": 0,
+    "duplicados_clave": 0,
+    "sumas": {
+      "TotalEstudiantes": 8274834,
+      "Discapacidad": 80482,
+      "Mujer": 4066008,
+      "Hombre": 4208826,
+      "Venezolanos": 137608,
+      "Peruanos": 8082296,
+      "Extranjeros": 54930,
+      "DNI_validado": 8040150,
+      "DNI_SinValidar": 5342,
+      "No_DNI": 229342,
+      "Aprobado": 7976504,
+      "PromocionGuiada": 232653,
+      "Retirado": 31009,
+      "Fallecido": 1659,
+      "RequiereRecuperacion": 9884,
+      "Matriculado": 22121,
+      "PostergaEvaluacion": 1004,
+      "tot_atraso": 253166
+    },
+    "no_numericos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "negativos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "medidas_mayores_total": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "PromocionGuiada": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "reconciliacion": {
+      "sexo": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "nacionalidad": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "documento": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "situacion_final": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      }
+    },
+    "niveles": [
+      {
+        "id_nivel": "A5",
+        "dsc_nivel": "Inicial no escolarizado"
+      },
+      {
+        "id_nivel": "F0",
+        "dsc_nivel": "Secundaria"
+      },
+      {
+        "id_nivel": "B0",
+        "dsc_nivel": "Primaria"
+      },
+      {
+        "id_nivel": "A3",
+        "dsc_nivel": "Inicial - Cuna-Jardín"
+      },
+      {
+        "id_nivel": "A2",
+        "dsc_nivel": "Inicial - Jardín"
+      },
+      {
+        "id_nivel": "A1",
+        "dsc_nivel": "Inicial - Cuna"
+      }
+    ],
+    "gestion": {
+      "Pública de gestión directa": 429048,
+      "Privada": 121242,
+      "Pública de gestión privada": 8495
+    },
+    "discapacidad_tipos": {
+      "": 490216,
+      "Intelectual": 21444,
+      "Otra discapacidad/condicion": 12602,
+      "TEA": 8423,
+      "Fisica": 6008,
+      "Intelectual_leve": 4799,
+      "Intelectual_Moderado": 4135,
+      "Visual": 3357,
+      "Multidiscapacidad": 2436,
+      "Auditiva": 2301,
+      "Intelectual_Severo": 1289,
+      "Auditiva_hipoacusia": 537,
+      "Visual_baja_vision": 526,
+      "Auditiva_sordera": 277,
+      "Visual_ceguera": 220,
+      "Sin especificacion": 138,
+      "Sordoceguera": 77
+    },
+    "edad": {
+      "min": 0.0,
+      "max": 18.0,
+      "vacios": 0,
+      "mayores_100": 0,
+      "no_enteros": 0
+    },
+    "discapacidad_vacia_con_conteo": 0,
+    "discapacidad_tipo_conteo_distinto_total": 0,
+    "servicios": 105488,
+    "conflictos_por_servicio": {
+      "Nombre": 0,
+      "gestion": 0,
+      "id_nivel": 0
+    },
+    "longitud_codigos": {
+      "cod_mod": {
+        "6": 283828,
+        "7": 274644,
+        "5": 202,
+        "4": 111
+      },
+      "anexo": {
+        "1": 558785
+      }
+    },
+    "edad_extrema_ejemplos": []
+  },
+  {
+    "archivo": "Matriculación y Trayectoria Estudiantil 2023.csv",
+    "filas": 544834,
+    "columnas": [
+      "cod_mod",
+      "anexo",
+      "Nombre",
+      "gestion",
+      "id_nivel",
+      "dsc_nivel",
+      "Edad",
+      "TipoDiscaIntegrada",
+      "TotalEstudiantes",
+      "Discapacidad",
+      "Mujer",
+      "Hombre",
+      "Venezolanos",
+      "Peruanos",
+      "Extranjeros",
+      "DNI_validado",
+      "DNI_SinValidar",
+      "No_DNI",
+      "Aprobado",
+      "Desaprobado",
+      "Retirado",
+      "Fallecido",
+      "RequiereRecuperacion",
+      "Matriculado",
+      "PostergaEvaluacion",
+      "tot_atraso"
+    ],
+    "nulos": {
+      "TipoDiscaIntegrada": 481172
+    },
+    "duplicados_completos": 0,
+    "duplicados_clave": 0,
+    "sumas": {
+      "TotalEstudiantes": 8252287,
+      "Discapacidad": 75046,
+      "Mujer": 4053826,
+      "Hombre": 4198461,
+      "Venezolanos": 137799,
+      "Peruanos": 8058816,
+      "Extranjeros": 55672,
+      "DNI_validado": 8022917,
+      "DNI_SinValidar": 5407,
+      "No_DNI": 223963,
+      "Aprobado": 7920577,
+      "Desaprobado": 250490,
+      "Retirado": 69421,
+      "Fallecido": 1953,
+      "RequiereRecuperacion": 5256,
+      "Matriculado": 3661,
+      "PostergaEvaluacion": 929,
+      "tot_atraso": 205330
+    },
+    "no_numericos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "negativos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "medidas_mayores_total": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "reconciliacion": {
+      "sexo": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "nacionalidad": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "documento": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "situacion_final": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      }
+    },
+    "niveles": [
+      {
+        "id_nivel": "A5",
+        "dsc_nivel": "Inicial no escolarizado"
+      },
+      {
+        "id_nivel": "F0",
+        "dsc_nivel": "Secundaria"
+      },
+      {
+        "id_nivel": "B0",
+        "dsc_nivel": "Primaria"
+      },
+      {
+        "id_nivel": "A3",
+        "dsc_nivel": "Inicial - Cuna-Jardín"
+      },
+      {
+        "id_nivel": "A2",
+        "dsc_nivel": "Inicial - Jardín"
+      },
+      {
+        "id_nivel": "A1",
+        "dsc_nivel": "Inicial - Cuna"
+      }
+    ],
+    "gestion": {
+      "Pública de gestión directa": 416371,
+      "Privada": 120024,
+      "Pública de gestión privada": 8439
+    },
+    "discapacidad_tipos": {
+      "": 481172,
+      "Intelectual": 17906,
+      "Otra discapacidad/condicion": 12185,
+      "TEA": 8583,
+      "Fisica": 5533,
+      "Intelectual_leve": 4799,
+      "Intelectual_Moderado": 4152,
+      "Visual": 2821,
+      "Multidiscapacidad": 2622,
+      "Auditiva": 1940,
+      "Intelectual_Severo": 1263,
+      "Auditiva_hipoacusia": 563,
+      "Visual_baja_vision": 533,
+      "Auditiva_sordera": 288,
+      "Visual_ceguera": 236,
+      "Sin especificacion": 168,
+      "Sordoceguera": 70
+    },
+    "edad": {
+      "min": 0.0,
+      "max": 18.0,
+      "vacios": 0,
+      "mayores_100": 0,
+      "no_enteros": 0
+    },
+    "discapacidad_vacia_con_conteo": 0,
+    "discapacidad_tipo_conteo_distinto_total": 0,
+    "servicios": 105702,
+    "conflictos_por_servicio": {
+      "Nombre": 0,
+      "gestion": 0,
+      "id_nivel": 0
+    },
+    "longitud_codigos": {
+      "cod_mod": {
+        "7": 272280,
+        "6": 272251,
+        "5": 193,
+        "4": 110
+      },
+      "anexo": {
+        "1": 544834
+      }
+    },
+    "edad_extrema_ejemplos": []
+  },
+  {
+    "archivo": "Matriculación y Trayectoria Estudiantil 2024.csv",
+    "filas": 535137,
+    "columnas": [
+      "cod_mod",
+      "anexo",
+      "Nombre",
+      "gestion",
+      "id_nivel",
+      "dsc_nivel",
+      "Edad",
+      "TipoDiscaIntegrada",
+      "TotalEstudiantes",
+      "Discapacidad",
+      "Mujer",
+      "Hombre",
+      "Venezolanos",
+      "Peruanos",
+      "Extranjeros",
+      "DNI_validado",
+      "DNI_SinValidar",
+      "No_DNI",
+      "Aprobado",
+      "Desaprobado",
+      "Retirado",
+      "Fallecido",
+      "RequiereRecuperacion",
+      "Matriculado",
+      "PostergaEvaluacion",
+      "tot_atraso"
+    ],
+    "nulos": {
+      "Edad": 1,
+      "TipoDiscaIntegrada": 473294
+    },
+    "duplicados_completos": 0,
+    "duplicados_clave": 0,
+    "sumas": {
+      "TotalEstudiantes": 8153638,
+      "Discapacidad": 72351,
+      "Mujer": 4006840,
+      "Hombre": 4146798,
+      "Venezolanos": 119644,
+      "Peruanos": 7979233,
+      "Extranjeros": 54761,
+      "DNI_validado": 7953351,
+      "DNI_SinValidar": 4003,
+      "No_DNI": 196284,
+      "Aprobado": 7812654,
+      "Desaprobado": 241286,
+      "Retirado": 51471,
+      "Fallecido": 1439,
+      "RequiereRecuperacion": 29526,
+      "Matriculado": 16576,
+      "PostergaEvaluacion": 686,
+      "tot_atraso": 196493
+    },
+    "no_numericos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "negativos": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "medidas_mayores_total": {
+      "TotalEstudiantes": 0,
+      "Discapacidad": 0,
+      "Mujer": 0,
+      "Hombre": 0,
+      "Venezolanos": 0,
+      "Peruanos": 0,
+      "Extranjeros": 0,
+      "DNI_validado": 0,
+      "DNI_SinValidar": 0,
+      "No_DNI": 0,
+      "Aprobado": 0,
+      "Desaprobado": 0,
+      "Retirado": 0,
+      "Fallecido": 0,
+      "RequiereRecuperacion": 0,
+      "Matriculado": 0,
+      "PostergaEvaluacion": 0,
+      "tot_atraso": 0
+    },
+    "reconciliacion": {
+      "sexo": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "nacionalidad": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "documento": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      },
+      "situacion_final": {
+        "filas_no_cuadran": 0,
+        "diferencia_suma": 0,
+        "ejemplos": []
+      }
+    },
+    "niveles": [
+      {
+        "id_nivel": "A5",
+        "dsc_nivel": "Inicial no escolarizado"
+      },
+      {
+        "id_nivel": "F0",
+        "dsc_nivel": "Secundaria"
+      },
+      {
+        "id_nivel": "B0",
+        "dsc_nivel": "Primaria"
+      },
+      {
+        "id_nivel": "A3",
+        "dsc_nivel": "Inicial - Cuna-Jardín"
+      },
+      {
+        "id_nivel": "A2",
+        "dsc_nivel": "Inicial - Jardín"
+      },
+      {
+        "id_nivel": "A1",
+        "dsc_nivel": "Inicial - Cuna"
+      }
+    ],
+    "gestion": {
+      "Pública de gestión directa": 407028,
+      "Privada": 119803,
+      "Pública de gestión privada": 8306
+    },
+    "discapacidad_tipos": {
+      "": 473294,
+      "Intelectual": 15289,
+      "Otra discapacidad/condicion": 12206,
+      "TEA": 9161,
+      "Intelectual_leve": 4977,
+      "Fisica": 4953,
+      "Intelectual_Moderado": 4353,
+      "Multidiscapacidad": 2925,
+      "Visual": 2392,
+      "Auditiva": 1652,
+      "Intelectual_Severo": 1340,
+      "Sin especificacion": 835,
+      "Auditiva_hipoacusia": 586,
+      "Visual_baja_vision": 575,
+      "Auditiva_sordera": 290,
+      "Visual_ceguera": 244,
+      "Sordoceguera": 65
+    },
+    "edad": {
+      "min": 0.0,
+      "max": 18.0,
+      "vacios": 1,
+      "mayores_100": 0,
+      "no_enteros": 0
+    },
+    "discapacidad_vacia_con_conteo": 0,
+    "discapacidad_tipo_conteo_distinto_total": 0,
+    "servicios": 105891,
+    "conflictos_por_servicio": {
+      "Nombre": 0,
+      "gestion": 0,
+      "id_nivel": 0
+    },
+    "longitud_codigos": {
+      "cod_mod": {
+        "7": 271443,
+        "6": 263406,
+        "5": 182,
+        "4": 106
+      },
+      "anexo": {
+        "1": 535137
+      }
+    },
+    "edad_extrema_ejemplos": []
+  }
+]

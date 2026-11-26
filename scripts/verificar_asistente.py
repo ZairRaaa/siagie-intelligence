@@ -1,4 +1,4 @@
-﻿"""Comprueba el acceso a Responses con un mensaje fijo sin datos del proyecto."""
+"""Comprueba el acceso a Responses con un mensaje fijo sin datos del proyecto."""
 
 import json
 from datetime import datetime

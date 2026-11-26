@@ -1,4 +1,4 @@
-﻿# SIAGIE Intelligence · Diagnóstico inicial
+# SIAGIE Intelligence · Diagnóstico inicial
 
 **UNCP · Inteligencia de Negocios · 25 de noviembre de 2026**  
 **Autor del proyecto:** Zair Ken Rojas Cerron. **Alcance de esta fase:** inspección local, consultas de lectura, conciliación y diseño del protocolo. 

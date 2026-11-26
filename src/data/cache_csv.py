@@ -1,4 +1,4 @@
-﻿"""Construye una copia SQLite derivada de las fuentes originales verificadas."""
+"""Construye una copia SQLite derivada de las fuentes originales verificadas."""
 
 import csv
 import hashlib

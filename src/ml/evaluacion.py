@@ -1,4 +1,4 @@
-﻿"""Métricas de regresión y cortes por nivel y tamaño de servicio."""
+"""Métricas de regresión y cortes por nivel y tamaño de servicio."""
 
 import numpy as np
 import pandas as pd

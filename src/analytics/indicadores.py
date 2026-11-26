@@ -1,4 +1,4 @@
-﻿"""Indicadores sobre agregados de matrícula y disponibilidad del periodo."""
+"""Indicadores sobre agregados de matrícula y disponibilidad del periodo."""
 
 from src.data.contrato import DISPONIBILIDAD
 

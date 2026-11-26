@@ -1,4 +1,4 @@
-﻿"""Configuración y primeras consultas de lectura a SQL Server."""
+"""Configuración y primeras consultas de lectura a SQL Server."""
 
 import os
 from pathlib import Path

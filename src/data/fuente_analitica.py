@@ -1,4 +1,4 @@
-﻿"""Acceso a agregados y metadatos con procedencia explícita."""
+"""Acceso a agregados y metadatos con procedencia explícita."""
 
 from functools import lru_cache
 from time import monotonic

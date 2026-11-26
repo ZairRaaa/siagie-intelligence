@@ -1,4 +1,4 @@
-﻿# Estado del proyecto · 25 de noviembre de 2026
+# Estado del proyecto · 25 de noviembre de 2026
 
 Fase 1 completada. Se inspeccionaron las referencias en `contexto/`, el Python local y la instancia SQL. Se conciliaron cuatro periodos y se documentó la cobertura para una evaluación temporal por servicio.
 

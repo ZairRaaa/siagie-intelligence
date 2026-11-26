@@ -1,4 +1,4 @@
-﻿# Asistente GPT de SIAGIE Intelligence
+# Asistente GPT de SIAGIE Intelligence
 
 Extensión opcional de la aplicación local. Streamlit prepara las cifras con los agregados existentes y usa la API Responses de OpenAI para redactar una interpretación corta en español. El modelo predeterminado es GPT-4.1 mini. [API Responses](https://developers.openai.com/api/reference/resources/responses/methods/create) · [GPT-4.1 mini](https://developers.openai.com/api/docs/models/gpt-4.1-mini).
 

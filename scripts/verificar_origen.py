@@ -1,4 +1,4 @@
-﻿"""Comprueba el resumen anual del origen elegido desde la raíz del proyecto."""
+"""Comprueba el resumen anual del origen elegido desde la raíz del proyecto."""
 
 import argparse
 import json

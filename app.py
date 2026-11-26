@@ -1,4 +1,4 @@
-﻿"""Entrada de la aplicación Streamlit para SIAGIE Intelligence."""
+"""Entrada de la aplicación Streamlit para SIAGIE Intelligence."""
 
 from pathlib import Path
 

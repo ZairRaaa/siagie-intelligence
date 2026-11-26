@@ -1,4 +1,4 @@
-﻿# Comprobaciones de la base analítica
+# Comprobaciones de la base analítica
 
 ## Entorno y fuentes · 25 de noviembre de 2026
 

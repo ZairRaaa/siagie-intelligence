@@ -1,4 +1,4 @@
-﻿# Evidencias técnicas
+# Evidencias técnicas
 
 | N.º | Evidencia | Origen, periodo y alcance |
 |---|---|---|

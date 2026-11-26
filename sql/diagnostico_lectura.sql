@@ -1,4 +1,4 @@
-﻿SET NOCOUNT ON;
+SET NOCOUNT ON;
 SELECT @@SERVERNAME AS servidor, DB_NAME() AS base,
        SERVERPROPERTY('ProductVersion') AS version, SERVERPROPERTY('Edition') AS edicion;
 SELECT SCHEMA_NAME(o.schema_id) AS esquema, o.name AS objeto, o.type_desc AS tipo

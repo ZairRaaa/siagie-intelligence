@@ -1,4 +1,4 @@
-﻿"""Verifica las fuentes, concilia el panel con SQL Server y fija las particiones."""
+"""Verifica las fuentes, concilia el panel con SQL Server y fija las particiones."""
 
 import argparse
 import hashlib

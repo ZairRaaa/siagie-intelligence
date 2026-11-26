@@ -1,4 +1,4 @@
-﻿"""Ubicación y validación de los archivos locales para evaluación."""
+"""Ubicación y validación de los archivos locales para evaluación."""
 
 import hashlib
 import json

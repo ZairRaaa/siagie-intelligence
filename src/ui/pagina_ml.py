@@ -1,4 +1,4 @@
-﻿"""Resultados de la prueba histórica generados por una ejecución local."""
+"""Resultados de la prueba histórica generados por una ejecución local."""
 
 import re
 from pathlib import Path

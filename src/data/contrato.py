@@ -1,4 +1,4 @@
-﻿"""Campos y filtros comunes para SQL Server y los CSV del SIAGIE."""
+"""Campos y filtros comunes para SQL Server y los CSV del SIAGIE."""
 
 from dataclasses import dataclass
 

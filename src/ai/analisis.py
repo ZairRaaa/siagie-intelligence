@@ -1,4 +1,4 @@
-﻿"""Solicitudes acotadas a la API Responses para explicar indicadores comprobados."""
+"""Solicitudes acotadas a la API Responses para explicar indicadores comprobados."""
 
 import json
 import os

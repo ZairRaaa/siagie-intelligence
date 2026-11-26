@@ -1,4 +1,4 @@
-﻿"""Audita la ejecución publicada y puede exportar una figura de la prueba histórica."""
+"""Audita la ejecución publicada y puede exportar una figura de la prueba histórica."""
 
 import argparse
 import json

@@ -1,4 +1,4 @@
-﻿# Resultados de SIAGIE Intelligence
+# Resultados de SIAGIE Intelligence
 
 ## Matrícula y trayectoria registradas
 

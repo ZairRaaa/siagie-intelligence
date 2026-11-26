@@ -1,4 +1,4 @@
-﻿"""Controles opcionales de GPT y preparación de los datos agregados que se envían."""
+"""Controles opcionales de GPT y preparación de los datos agregados que se envían."""
 
 import hashlib
 import json

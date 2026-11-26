@@ -1,4 +1,4 @@
-﻿"""Páginas descriptivas del observatorio SIAGIE."""
+"""Páginas descriptivas del observatorio SIAGIE."""
 
 from dataclasses import replace
 

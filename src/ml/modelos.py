@@ -1,4 +1,4 @@
-﻿"""Candidatos para selección temporal con preprocesamiento en el pipeline."""
+"""Candidatos para selección temporal con preprocesamiento en el pipeline."""
 
 from dataclasses import dataclass
 from itertools import product

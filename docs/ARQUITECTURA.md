@@ -1,4 +1,4 @@
-﻿# Arquitectura de SIAGIE Intelligence
+# Arquitectura de SIAGIE Intelligence
 
 Aplicación local en Windows con Python 3.12, Streamlit y Plotly. La interfaz usa el mismo contrato de filtros e indicadores para ambas fuentes.
 

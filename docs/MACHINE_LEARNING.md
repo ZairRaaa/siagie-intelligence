@@ -1,4 +1,4 @@
-﻿# Machine Learning · Matrícula siguiente por servicio educativo
+# Machine Learning · Matrícula siguiente por servicio educativo
 
 ## Pregunta y unidad de análisis
 

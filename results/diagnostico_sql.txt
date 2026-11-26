@@ -1,4 +1,4 @@
-﻿servidor|base|version|edicion
+servidor|base|version|edicion
 --------|----|-------|-------
 SERVIDOR_LOCAL\SQLEXPRESS|DW_SIAGIE|16.0.1000.6|Developer Edition (64-bit)
 esquema|objeto|tipo

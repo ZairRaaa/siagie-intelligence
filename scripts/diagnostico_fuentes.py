@@ -1,4 +1,4 @@
-﻿"""Recalcula controles agregados sobre las exportaciones originales del SIAGIE."""
+"""Recalcula controles agregados sobre las exportaciones originales del SIAGIE."""
 import hashlib
 import json
 from pathlib import Path

@@ -1,4 +1,4 @@
-﻿SET NOCOUNT ON;
+SET NOCOUNT ON;
 PRINT 'CASO:busqueda_codigo';
 
         SELECT TOP (60) cod_mod, anexo, MIN(nombre) AS nombre

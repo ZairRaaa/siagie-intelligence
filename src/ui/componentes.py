@@ -1,4 +1,4 @@
-﻿"""Presentación de cifras, gráficos y descargas del dashboard."""
+"""Presentación de cifras, gráficos y descargas del dashboard."""
 
 import csv
 from io import StringIO

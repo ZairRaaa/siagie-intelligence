@@ -1,4 +1,4 @@
-﻿import pytest
+import pytest
 from sqlalchemy.dialects import mssql
 
 from src.analytics.indicadores import tasa, variaciones_anuales

@@ -1,4 +1,4 @@
-﻿SET NOCOUNT ON;
+SET NOCOUNT ON;
 PRINT 'LOTES';
 SELECT a.anio, RTRIM(l.sha256) AS sha256
 FROM dw.DimAnio AS a

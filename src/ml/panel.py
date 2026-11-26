@@ -1,4 +1,4 @@
-﻿"""Panel anual y transiciones supervisadas de matrícula por servicio."""
+"""Panel anual y transiciones supervisadas de matrícula por servicio."""
 
 import pandas as pd
 from sqlalchemy import text

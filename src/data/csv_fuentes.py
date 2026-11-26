@@ -1,4 +1,4 @@
-﻿"""Resumen de matrícula de los CSV identificados en el manifiesto del SIAGIE."""
+"""Resumen de matrícula de los CSV identificados en el manifiesto del SIAGIE."""
 
 import hashlib
 import json

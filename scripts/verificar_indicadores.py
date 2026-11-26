@@ -1,4 +1,4 @@
-﻿"""Concilia los agregados de Python sobre CSV con el mismo SQL ejecutado en el DW."""
+"""Concilia los agregados de Python sobre CSV con el mismo SQL ejecutado en el DW."""
 
 import argparse
 import json

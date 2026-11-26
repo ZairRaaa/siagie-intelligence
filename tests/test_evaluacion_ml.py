@@ -1,4 +1,4 @@
-﻿import math
+import math
 from pathlib import Path
 from time import perf_counter
 from types import SimpleNamespace

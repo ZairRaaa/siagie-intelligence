@@ -1,4 +1,4 @@
-﻿"""Selecciona modelos con validación temporal y ejecuta la prueba histórica reservada."""
+"""Selecciona modelos con validación temporal y ejecuta la prueba histórica reservada."""
 
 import argparse
 import json

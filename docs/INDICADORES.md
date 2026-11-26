@@ -1,4 +1,4 @@
-﻿# Indicadores SIAGIE 2021–2024
+# Indicadores SIAGIE 2021–2024
 
 Los agregados corresponden a registros publicados por servicio, año, nivel, edad y tipo de discapacidad. `FuenteAnalitica.agregados()` acepta filtros por año, nivel, gestión, código modular y anexo, edad y categoría de discapacidad. Devuelve los mismos campos para los dos orígenes. El agrupamiento predeterminado es por año. Usar `por=()` para un total de la selección.
 

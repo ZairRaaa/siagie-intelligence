@@ -1,4 +1,4 @@
-﻿"""Consultas analíticas de lectura, con valores enlazados como parámetros."""
+"""Consultas analíticas de lectura, con valores enlazados como parámetros."""
 
 from sqlalchemy import Integer, Unicode, bindparam, text
 

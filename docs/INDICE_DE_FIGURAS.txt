@@ -1,5 +1,5 @@
 SIAGIE INTELLIGENCE · FIGURAS HORIZONTALES PARA EL INFORME
-Capturas reales del dashboard local, tomadas el 25 de noviembre de 2026. Tamaño de cada JPEG: 1439 × 810 píxeles, aproximadamente 16:9. Los dos PNG son un diagrama técnico y un gráfico de resultados.
+Capturas reales del dashboard local, tomadas el 25 de noviembre de 2026. El resumen ejecutivo es un PNG de 1917 × 907 píxeles. Las otras ocho capturas son JPEG de 1439 × 810 píxeles. El diagrama técnico y el gráfico de resultados también se guardaron en PNG.
 
 FIGURA 1 — Arquitectura de SIAGIE Intelligence
 Archivo: evidence/arquitectura_siagie.png
@@ -7,7 +7,7 @@ Ubicación sugerida: diseño e implementación.
 Nota sugerida. Elaboración propia a partir de la arquitectura implementada. La interfaz se probó con CSV verificados y la conciliación utilizó lecturas del DW mediante SQLCMD.
 
 FIGURA 2 — Resumen ejecutivo de matrícula y trayectoria
-Archivo: evidence/capturas/01_resumen_ejecutivo.jpg
+Archivo: evidence/capturas/01_resumen_ejecutivo.png
 Ubicación sugerida: resultados descriptivos.
 Nota sugerida. Origen CSV verificado, Perú 2021–2024, todos los niveles y gestiones. Las tarjetas presentan matrículas por periodo, servicios distintos y tasas sobre la matrícula registrada.
 

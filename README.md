@@ -2,7 +2,7 @@
 
 Proyecto individual de Inteligencia de Negocios de la UNCP sobre matrícula y trayectoria estudiantil registrada en el SIAGIE 2021–2024. El dashboard opera localmente con CSV publicados por MINEDU y verificados con el manifiesto. [Fuente oficial y licencia de los datos](https://www.datosabiertos.gob.pe/dataset/matriculaci%C3%B3n-y-trayectoria-estudiantil-2021-2024).
 
-![Resumen ejecutivo con los CSV verificados](evidence/capturas/01_resumen_ejecutivo.jpg)
+![Resumen ejecutivo con los CSV verificados](evidence/capturas/01_resumen_ejecutivo.png)
 
 Consulta el [plan por fases y el diagnóstico](docs/DIAGNOSTICO.md) y el [estado de implementación](docs/ESTADO_PROYECTO.md).
 

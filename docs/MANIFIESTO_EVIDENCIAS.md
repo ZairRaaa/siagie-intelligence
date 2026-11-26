@@ -19,6 +19,6 @@
 
 ## Material gráfico para el informe
 
-El 25 de noviembre de 2026 se guardaron nueve [capturas horizontales del dashboard](../evidence/capturas) en JPEG de 1439 × 810 píxeles. Se tomaron con la aplicación local en ejecución y el origen CSV verificado. El [índice de figuras](INDICE_DE_FIGURAS.txt) indica la vista, el alcance, el lugar sugerido en el informe y una nota para cada imagen. También incluye el [diagrama de la arquitectura](../evidence/arquitectura_siagie.png) y el gráfico de comparación del MAE.
+El 25 de noviembre de 2026 se guardaron nueve [capturas horizontales del dashboard](../evidence/capturas). El [Resumen ejecutivo](../evidence/capturas/01_resumen_ejecutivo.png) está en PNG de 1917 × 907 píxeles y las otras ocho capturas en JPEG de 1439 × 810 píxeles. Se tomaron con la aplicación local en ejecución y el origen CSV verificado. El [índice de figuras](INDICE_DE_FIGURAS.txt) indica la vista, el alcance, el lugar sugerido en el informe y una nota para cada imagen. También incluye el [diagrama de la arquitectura](../evidence/arquitectura_siagie.png) y el gráfico de comparación del MAE.
 
 La captura del asistente muestra la interfaz. El registro HTTP del sondeo acredita la falta de saldo de la API.
